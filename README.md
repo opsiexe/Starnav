@@ -1,4 +1,4 @@
-# Freight Star Citizen
+# Sternav Star Citizen
 
 Outil web **dynamique** de freight pour Star Citizen. Il répond à une question : *avec mon vaisseau, mon budget et ma position, qu'est-ce que j'achète, où, où je le revends, et dans quel ordre ?*
 
