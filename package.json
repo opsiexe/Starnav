@@ -4,5 +4,8 @@
   "private": true,
   "devDependencies": {
     "tsx": "^4.23.15"
+  },
+  "scripts": {
+    "fetch-ships": "tsx scripts/fetch-ships.ts"
   }
 }
