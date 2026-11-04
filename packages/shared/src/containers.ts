@@ -12,3 +12,7 @@ export const FORMES: Record<ContainerSize, Volume> = {
     24: {x: 2, y: 6, z: 2},
     32: {x: 2, y: 8, z: 2}
 };
+
+export function isContainerSize(value: number): value is ContainerSize {
+    return (CONTAINER_SIZES as readonly number[]).includes(value);
+}

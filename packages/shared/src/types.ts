@@ -4,7 +4,7 @@ export const ACCESS_SIZE = ["back", "left", "right", "top", "bottom"] as const;
 export type AccessSize = (typeof ACCESS_SIZE)[number];
 
 export type CargoGrid = {
-    uuid: string,
+    id: string,
     name: string,
     size: Volume,
     scu: number,
