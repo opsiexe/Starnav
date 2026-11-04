@@ -1,0 +1,57 @@
+{
+  "slug": "misc-freelancer-max",
+  "name": "MISC Freelancer MAX",
+  "manufacturer": "Musashi Industrial and Starflight Concern",
+  "wikiUuid": "6c6e9731-3d70-4f1b-84c2-9dbf3c1f97c7",
+  "cargoCapacity": 120,
+  "grids": [
+    {
+      "id": "grid-0",
+      "name": "grid-0",
+      "size": {
+        "x": 4,
+        "y": 9,
+        "z": 3
+      },
+      "scu": 108,
+      "maxScuBox": 16,
+      "maxSize": {
+        "x": 2,
+        "y": 8,
+        "z": 2
+      }
+    },
+    {
+      "id": "grid-1",
+      "name": "grid-1",
+      "size": {
+        "x": 2,
+        "y": 1,
+        "z": 3
+      },
+      "scu": 6,
+      "maxScuBox": 2,
+      "maxSize": {
+        "x": 2,
+        "y": 1,
+        "z": 1
+      }
+    },
+    {
+      "id": "grid-2",
+      "name": "grid-2",
+      "size": {
+        "x": 2,
+        "y": 1,
+        "z": 3
+      },
+      "scu": 6,
+      "maxScuBox": 2,
+      "maxSize": {
+        "x": 2,
+        "y": 1,
+        "z": 1
+      }
+    }
+  ]
+}

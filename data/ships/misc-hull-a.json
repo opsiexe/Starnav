@@ -1,0 +1,73 @@
+{
+  "slug": "misc-hull-a",
+  "name": "MISC Hull A",
+  "manufacturer": "Musashi Industrial and Starflight Concern",
+  "wikiUuid": "6ec72f64-2002-481c-b7c9-b132476ba6aa",
+  "cargoCapacity": 64,
+  "grids": [
+    {
+      "id": "grid-0",
+      "name": "grid-0",
+      "size": {
+        "x": 2,
+        "y": 4,
+        "z": 2
+      },
+      "scu": 16,
+      "maxScuBox": 16,
+      "maxSize": {
+        "x": 2,
+        "y": 4,
+        "z": 2
+      }
+    },
+    {
+      "id": "grid-1",
+      "name": "grid-1",
+      "size": {
+        "x": 2,
+        "y": 4,
+        "z": 2
+      },
+      "scu": 16,
+      "maxScuBox": 16,
+      "maxSize": {
+        "x": 2,
+        "y": 4,
+        "z": 2
+      }
+    },
+    {
+      "id": "grid-2",
+      "name": "grid-2",
+      "size": {
+        "x": 2,
+        "y": 4,
+        "z": 2
+      },
+      "scu": 16,
+      "maxScuBox": 16,
+      "maxSize": {
+        "x": 2,
+        "y": 4,
+        "z": 2
+      }
+    },
+    {
+      "id": "grid-3",
+      "name": "grid-3",
+      "size": {
+        "x": 2,
+        "y": 4,
+        "z": 2
+      },
+      "scu": 16,
+      "maxScuBox": 16,
+      "maxSize": {
+        "x": 2,
+        "y": 4,
+        "z": 2
+      }
+    }
+  ]
+}

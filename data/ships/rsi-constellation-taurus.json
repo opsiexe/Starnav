@@ -1,0 +1,41 @@
+{
+  "slug": "rsi-constellation-taurus",
+  "name": "Constellation Mk IV Taurus",
+  "manufacturer": "Roberts Space Industries",
+  "wikiUuid": "d1c3fa10-b2d9-421e-8301-97dbf4d0c115",
+  "cargoCapacity": 174,
+  "grids": [
+    {
+      "id": "grid-0",
+      "name": "grid-0",
+      "size": {
+        "x": 2,
+        "y": 3,
+        "z": 1
+      },
+      "scu": 6,
+      "maxScuBox": 4,
+      "maxSize": {
+        "x": 2,
+        "y": 2,
+        "z": 1
+      }
+    },
+    {
+      "id": "grid-1",
+      "name": "grid-1",
+      "size": {
+        "x": 4,
+        "y": 14,
+        "z": 3
+      },
+      "scu": 168,
+      "maxScuBox": 16,
+      "maxSize": {
+        "x": 2,
+        "y": 8,
+        "z": 2
+      }
+    }
+  ]
+}

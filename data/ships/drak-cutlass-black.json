@@ -1,0 +1,41 @@
+{
+  "slug": "drak-cutlass-black",
+  "name": "Cutlass Black",
+  "manufacturer": "Drake Interplanetary",
+  "wikiUuid": "b58f7735-9454-4a0a-b724-2bc8d61961d7",
+  "cargoCapacity": 46,
+  "grids": [
+    {
+      "id": "grid-0",
+      "name": "grid-0",
+      "size": {
+        "x": 4,
+        "y": 5,
+        "z": 2
+      },
+      "scu": 40,
+      "maxScuBox": 2,
+      "maxSize": {
+        "x": 2,
+        "y": 1,
+        "z": 1
+      }
+    },
+    {
+      "id": "grid-1",
+      "name": "grid-1",
+      "size": {
+        "x": 1,
+        "y": 3,
+        "z": 2
+      },
+      "scu": 6,
+      "maxScuBox": 1,
+      "maxSize": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    }
+  ]
+}

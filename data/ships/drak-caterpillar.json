@@ -1,0 +1,233 @@
+{
+  "slug": "drak-caterpillar",
+  "name": "Caterpillar",
+  "manufacturer": "Drake Interplanetary",
+  "wikiUuid": "dc39ca6b-1d76-4db5-9346-356f49954978",
+  "cargoCapacity": 576,
+  "grids": [
+    {
+      "id": "grid-0",
+      "name": "grid-0",
+      "size": {
+        "x": 5,
+        "y": 4,
+        "z": 3
+      },
+      "scu": 60,
+      "maxScuBox": 32,
+      "maxSize": {
+        "x": 4,
+        "y": 4,
+        "z": 2
+      }
+    },
+    {
+      "id": "grid-1",
+      "name": "grid-1",
+      "size": {
+        "x": 5,
+        "y": 2,
+        "z": 2
+      },
+      "scu": 20,
+      "maxScuBox": 16,
+      "maxSize": {
+        "x": 4,
+        "y": 2,
+        "z": 2
+      }
+    },
+    {
+      "id": "grid-2",
+      "name": "grid-2",
+      "size": {
+        "x": 4,
+        "y": 6,
+        "z": 4
+      },
+      "scu": 96,
+      "maxScuBox": 16,
+      "maxSize": {
+        "x": 2,
+        "y": 6,
+        "z": 2
+      }
+    },
+    {
+      "id": "grid-3",
+      "name": "grid-3",
+      "size": {
+        "x": 4,
+        "y": 1,
+        "z": 2
+      },
+      "scu": 8,
+      "maxScuBox": 2,
+      "maxSize": {
+        "x": 2,
+        "y": 1,
+        "z": 1
+      }
+    },
+    {
+      "id": "grid-4",
+      "name": "grid-4",
+      "size": {
+        "x": 1,
+        "y": 5,
+        "z": 4
+      },
+      "scu": 20,
+      "maxScuBox": 2,
+      "maxSize": {
+        "x": 1,
+        "y": 2,
+        "z": 1
+      }
+    },
+    {
+      "id": "grid-5",
+      "name": "grid-5",
+      "size": {
+        "x": 4,
+        "y": 6,
+        "z": 4
+      },
+      "scu": 96,
+      "maxScuBox": 16,
+      "maxSize": {
+        "x": 2,
+        "y": 6,
+        "z": 2
+      }
+    },
+    {
+      "id": "grid-6",
+      "name": "grid-6",
+      "size": {
+        "x": 4,
+        "y": 1,
+        "z": 2
+      },
+      "scu": 8,
+      "maxScuBox": 2,
+      "maxSize": {
+        "x": 2,
+        "y": 1,
+        "z": 1
+      }
+    },
+    {
+      "id": "grid-7",
+      "name": "grid-7",
+      "size": {
+        "x": 1,
+        "y": 5,
+        "z": 4
+      },
+      "scu": 20,
+      "maxScuBox": 2,
+      "maxSize": {
+        "x": 1,
+        "y": 2,
+        "z": 1
+      }
+    },
+    {
+      "id": "grid-8",
+      "name": "grid-8",
+      "size": {
+        "x": 4,
+        "y": 6,
+        "z": 4
+      },
+      "scu": 96,
+      "maxScuBox": 16,
+      "maxSize": {
+        "x": 2,
+        "y": 6,
+        "z": 2
+      }
+    },
+    {
+      "id": "grid-9",
+      "name": "grid-9",
+      "size": {
+        "x": 4,
+        "y": 1,
+        "z": 2
+      },
+      "scu": 8,
+      "maxScuBox": 2,
+      "maxSize": {
+        "x": 2,
+        "y": 1,
+        "z": 1
+      }
+    },
+    {
+      "id": "grid-10",
+      "name": "grid-10",
+      "size": {
+        "x": 1,
+        "y": 5,
+        "z": 4
+      },
+      "scu": 20,
+      "maxScuBox": 2,
+      "maxSize": {
+        "x": 1,
+        "y": 2,
+        "z": 1
+      }
+    },
+    {
+      "id": "grid-11",
+      "name": "grid-11",
+      "size": {
+        "x": 4,
+        "y": 6,
+        "z": 4
+      },
+      "scu": 96,
+      "maxScuBox": 16,
+      "maxSize": {
+        "x": 2,
+        "y": 6,
+        "z": 2
+      }
+    },
+    {
+      "id": "grid-12",
+      "name": "grid-12",
+      "size": {
+        "x": 4,
+        "y": 1,
+        "z": 2
+      },
+      "scu": 8,
+      "maxScuBox": 2,
+      "maxSize": {
+        "x": 2,
+        "y": 1,
+        "z": 1
+      }
+    },
+    {
+      "id": "grid-13",
+      "name": "grid-13",
+      "size": {
+        "x": 1,
+        "y": 5,
+        "z": 4
+      },
+      "scu": 20,
+      "maxScuBox": 2,
+      "maxSize": {
+        "x": 1,
+        "y": 2,
+        "z": 1
+      }
+    }
+  ]
+}
