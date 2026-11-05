@@ -1,6 +1,6 @@
 # AGENTS.md — Contexte du projet Freight Star Citizen
 
-Ce fichier donne le contexte du projet aux agents IA. Lis-le en entier avant de toucher au code. Le détail fonctionnel est dans `README.md`.
+Ce fichier donne le contexte du projet aux agents IA. Lis-le en entier avant de toucher au code. Le détail fonctionnel est dans `docs/SPECIFICATION.md`.
 
 ## 1. Le projet en deux phrases
 
@@ -169,7 +169,7 @@ Le développeur veut **apprendre en construisant**, pas recevoir un projet livr�
 | M10 | Temps adaptatif et profits finaux |
 | M11 | Extension et déploiement |
 
-Le détail de chaque milestone (tâches et définition de terminé) est dans `README.md`.
+Le détail de chaque milestone (tâches et définition de terminé) est dans `docs/SPECIFICATION.md`.
 
 ## 12. Commandes
 
