@@ -29,3 +29,6 @@ pnpm-debug.log*
 .idea/
 .vscode/
 *.swp
+
+# Contexte local pour l'assistant IA, non publié
+AGENTS.md
