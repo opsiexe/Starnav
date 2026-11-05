@@ -1,7 +1,5 @@
 import type { Volume } from "@starnav/shared"
 
-export type Occupancy = { size: Volume, taken: Set<string> }
-
 export function cellsOf(position: Volume, dims: Volume): string[] {
     const keys: string[] = []
 
@@ -14,4 +12,13 @@ export function cellsOf(position: Volume, dims: Volume): string[] {
     }
 
     return keys
+}
+
+export type Occupancy = { size: Volume, taken: Set<string> }
+
+export function createOccupancy(size: Volume): Occupancy {
+    return {
+        size: size,
+        taken: new Set<string>()
+    }
 }
