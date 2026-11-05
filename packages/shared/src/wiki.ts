@@ -4,7 +4,7 @@ import type { CargoGrid, Ship } from "./types";
 export const CELL_SIZE_M: number = 1.25
 
 
-type RawGrid = {
+export type RawGrid = {
     "width": number,
     "height": number,
     "length": number,
@@ -15,8 +15,6 @@ type RawGrid = {
 
 type Manufacturer = {
     "name": string,
-    "code": string,
-    "uuid": string,
 }
 
 export type RawShip = {

@@ -3,9 +3,11 @@
   "version": "0.0.0",
   "private": true,
   "devDependencies": {
+    "@types/node": "^26.6.6",
     "tsx": "^4.23.15"
   },
   "scripts": {
-    "fetch-ships": "tsx scripts/fetch-ships.ts"
+    "fetch-ships": "tsx scripts/fetch-ships.ts",
+    "test": "pnpm -r test"
   }
 }
