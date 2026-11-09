@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { createShipState, findPlacementInShip } from "./ship";
+import { createShipState, findPlacementInShip, placeInShip } from "./ship";
 import type { CargoGrid, Ship, Volume, ContainerSize } from "@starnav/shared";
 
 function makeGrid(id: string, size: Volume, maxSize: Volume, maxScuBox: ContainerSize): CargoGrid {
@@ -62,5 +62,45 @@ describe("findPlacementInShip", () => {
         const state = createShipState(ship)
 
         expect(findPlacementInShip(state, 16)?.gridId).toBe("grid-1")
+    })
+})
+
+describe("placeInShip", () => {
+    it("marks cells only in the grid designated by the grid id", () => {
+        const grids = [makeGrid("grid-0", {x: 2, y: 4, z: 2}, {x: 2, y: 4, z: 2}, 2), makeGrid("grid-1", {x: 2, y: 4, z: 2}, {x: 2, y: 4, z: 2}, 16)]
+        const ship = makeShip(grids)
+        const state = createShipState(ship)
+
+        const placement = findPlacementInShip(state, 16)
+        placeInShip(state, placement!)
+
+        expect(state.grids[1].occ.taken.size).toBeGreaterThan(0)
+        expect(state.grids[0].occ.taken.size).toBe(0)
+
+        placement!
+    })
+
+    it("does not overlap containers placed with placeInShip", () => {
+        const grids = [makeGrid("grid-0", {x: 2, y: 4, z: 2}, {x: 2, y: 4, z: 2}, 16),]
+        const ship = makeShip(grids)
+        const state = createShipState(ship)
+
+        const placement = findPlacementInShip(state, 16)
+        placeInShip(state, placement!)
+        const placementNew = findPlacementInShip(state, 16)
+
+        expect(placementNew).toBeUndefined()
+
+        placement!
+    })
+
+    it("throws when placing in an unknown grid", () => {
+        const grids = [makeGrid("grid-0", {x: 2, y: 4, z: 2}, {x: 2, y: 4, z: 2}, 16),]
+        const ship = makeShip(grids)
+        const state = createShipState(ship)
+
+        const placement = { size: 24 as const, position: {x: 0, y: 0, z: 0}, dims: {x: 2, y: 2, z: 2}, gridId: "does-not-exist" }
+
+        expect(() => placeInShip(state, placement)).toThrow()
     })
 })

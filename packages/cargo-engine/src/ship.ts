@@ -1,5 +1,5 @@
 import { type ContainerSize, type CargoGrid, type Ship } from "@starnav/shared";
-import { createOccupancy, type Occupancy } from "./occupancy";
+import { createOccupancy, place, type Occupancy } from "./occupancy";
 import { findPlacement, type Placement } from "./findPlacement";
 
 export type GridState = { grid: CargoGrid; occ: Occupancy }
@@ -28,4 +28,14 @@ export function findPlacementInShip(state: ShipState, size: ContainerSize): Ship
     }
 
     return undefined
+}
+
+export function placeInShip(state: ShipState, placement: ShipPlacement): void {
+    const gs = state.grids.find((gridState) => gridState.grid.id === placement.gridId)
+
+    if (gs === undefined) {
+        throw new Error(`Unknow grid: ${placement.gridId}`)
+    }
+
+    place(gs.occ, placement.position, placement.dims)
 }
