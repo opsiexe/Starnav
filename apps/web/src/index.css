@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+    --color-bg: #070B12;
+    --color-surface: #0F1823;
+    --color-line: #1C2A3A;
+    --color-text: #9FB0C4;
+    --color-text-strong: #F2F6FA;
+    --color-accent: #29B6F6;
+    --color-accent-dim: #0B2A3D;
+}
+
+html,
+body,
+#root {
+    height: 100%;
+}
+
+body {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Ascenseur discret, accorde au theme */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-line) transparent;
+}
