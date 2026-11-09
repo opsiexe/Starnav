@@ -19,7 +19,7 @@ export function findPlacementInShip(state: ShipState, size: ContainerSize): Ship
 
         const placementFound = findPlacement(gs.occ, size, gs.grid.maxSize)
 
-        if (placementFound != undefined) {
+        if (placementFound !== undefined) {
             return {
                 ...placementFound,
                 gridId: gs.grid.id
@@ -33,8 +33,9 @@ export function findPlacementInShip(state: ShipState, size: ContainerSize): Ship
 export function placeInShip(state: ShipState, placement: ShipPlacement): void {
     const gs = state.grids.find((gridState) => gridState.grid.id === placement.gridId)
 
+    // la grille n'accepte pas une caisse de cette taille
     if (gs === undefined) {
-        throw new Error(`Unknow grid: ${placement.gridId}`)
+        throw new Error(`Unknown grid: ${placement.gridId}`)
     }
 
     place(gs.occ, placement.position, placement.dims)
