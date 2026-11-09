@@ -8,6 +8,7 @@
   },
   "scripts": {
     "fetch-ships": "tsx scripts/fetch-ships.ts",
-    "test": "pnpm -r test"
+    "test": "pnpm -r test",
+    "dev": "pnpm --filter @starnav/web dev"
   }
 }
